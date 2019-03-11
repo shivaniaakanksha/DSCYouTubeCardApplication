@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
 
@@ -112,7 +112,7 @@
 
 
                     <ImageView
-                        android:id="@+id/icon"
+                        android:id="@+id/icon1"
                         android:layout_width="72dp"
                         android:layout_height="72dp"
                         android:src="@drawable/icon"
@@ -120,11 +120,11 @@
                         />
 
                     <TextView
-                        android:id="@+id/videoname"
+                        android:id="@+id/videoname1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="4dp"
-                        android:layout_toRightOf="@id/icon"
+                        android:layout_toRightOf="@id/icon1"
                         android:text="Video name"
                         android:textColor="#000000"
                         android:textSize="20dp" />
@@ -132,14 +132,14 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/videoname"
+                        android:layout_below="@id/videoname1"
                         android:layout_marginStart="4dp"
                         android:layout_marginLeft="4dp"
                         android:layout_marginTop="4dp"
                         android:layout_marginEnd="4dp"
                         android:layout_marginRight="4dp"
                         android:layout_marginBottom="4dp"
-                        android:layout_toRightOf="@id/icon"
+                        android:layout_toRightOf="@id/icon1"
                         android:fontFamily="@font/aclonica"
                         android:text="Ashish talks-455 views-6 days ago"
                         android:textColor="#000000" />
@@ -160,6 +160,7 @@
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
+
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -186,7 +187,7 @@
 
 
                     <ImageView
-                        android:id="@+id/icon"
+                        android:id="@+id/icon2"
                         android:layout_width="72dp"
                         android:layout_height="72dp"
                         android:src="@drawable/icon"
@@ -194,11 +195,11 @@
                         />
 
                     <TextView
-                        android:id="@+id/videoname"
+                        android:id="@+id/videoname2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="4dp"
-                        android:layout_toRightOf="@id/icon"
+                        android:layout_toRightOf="@id/icon2"
                         android:text="Video name"
                         android:textColor="#000000"
                         android:textSize="20dp" />
@@ -206,14 +207,14 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/videoname"
+                        android:layout_below="@id/videoname2"
                         android:layout_marginStart="4dp"
                         android:layout_marginLeft="4dp"
                         android:layout_marginTop="4dp"
                         android:layout_marginEnd="4dp"
                         android:layout_marginRight="4dp"
                         android:layout_marginBottom="4dp"
-                        android:layout_toRightOf="@id/icon"
+                        android:layout_toRightOf="@id/icon2"
                         android:fontFamily="@font/aclonica"
                         android:text="Ashish talks-455 views-6 days ago"
                         android:textColor="#000000" />
@@ -235,6 +236,15 @@
 
         </android.support.v7.widget.CardView>
 
+<Button
+    android:id="@+id/btn1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TAP HERE FOR NEXT"
+    android:textStyle="bold"
+    android:textColor="#000000"
+
+    />
 
 
     </LinearLayout>
